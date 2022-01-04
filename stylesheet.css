@@ -1,0 +1,138 @@
+body {
+  width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+.head-list {
+  list-style: none;
+ float: right;
+}
+
+li {
+  display: inline;
+  margin: 0 15px;
+  color: rgba(0, 0, 0, 0.747);
+}
+
+a {
+  text-decoration: none;
+}
+
+li:hover {
+  opacity: 0.5;
+}
+
+.head-title {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.top {
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+
+.about-contents {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-image {
+  width: 45%;
+  text-align: left;
+}
+
+.about-text {
+  width: 45%;
+  text-align: left;
+}
+
+
+.lessons, .about-contents {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+
+
+img {
+  border: none;
+  vertical-align: bottom;
+}
+
+.cose, .about, .info {
+  margin: 80px auto;
+  width: 88%;
+}
+
+.cose-img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+.cose-content p {
+  margin: 0;
+  padding: 0;
+}
+
+.cose-content {
+  width: 29%;
+}
+
+input {
+  font-size: 13px;
+  border-radius: 30px;
+  height: 36px;
+  width: 460px;
+  padding-left: 20px;
+  border: solid 2px rgba(0, 0, 0, 0.205);
+}
+
+.input:active {
+  border: solid 2px rgba(0, 0, 0, 0.74);
+}
+
+
+.start {
+  color: white;
+  background-color: rgba(197, 0, 0, 0.753);
+  height: 60px;
+  width: 300px;
+  font-size: 20px;
+  box-shadow: 0 6px rgb(145, 1, 1);
+  display: block;
+  margin: 16px auto;
+}
+
+.start:active {
+  box-shadow: none;
+  position:relative;
+  top: 6px;
+}
+
+.info p {
+  margin-bottom: 2px;
+}
+
+footer {
+  height: 80px;
+  border-top: solid 1px rgba(128, 128, 128, 0.541);
+}
+
+footer p {
+  font-size: 12px;
+  float: right;
+}
